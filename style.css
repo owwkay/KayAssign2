@@ -1,0 +1,6 @@
+body {
+    background-color: rgba(193, 255, 251, 0.959); /*color of page background - referring to the opening background color of Brown's website*/
+    font-family: Fuzzy Bubbles, Arial, Helvetica, sans-serif; /*Referred to Google font and includes fallback fonts */
+    text-align: center; /*align all text to the center*/
+    color: black;
+}
