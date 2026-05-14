@@ -1,6 +1,37 @@
 body {
-    background-color: rgba(193, 255, 251, 0.959); /*color of page background - referring to the opening background color of Brown's website*/
-    font-family: Fuzzy Bubbles, Arial, Helvetica, sans-serif; /*Referred to Google font and includes fallback fonts */
-    text-align: center; /*align all text to the center*/
+    background-color: rgba(224, 249, 255, 0.959); /*I chose a */
+    font-family: Fuzzy Bubbles, Arial, Helvetica, sans-serif; /*Referred to Google font and includes fallback fonts. I chose the "Fuzzy Bubbles" font for its handwritten typeface, welcoming the user to try an easy DIY activity that feels as if a friend had given it to them to try. */
     color: black;
 }
+
+/* Video width*/
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto; /*Setting the height as auto so that the user is able to have the video player fit their screen no matter how big or small they resize the window. This could be helpful for if they want to view a tab alongside the video for inspiration or other examples of what they're making.*/
+  display: block;
+}
+
+
+/* Header styling */
+header {
+  background-color:rgb(253, 255, 159);
+  color: var(--main-text-color);
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+  background-color:rgb(253, 255, 159);
+  color: var(--main-text-color);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
