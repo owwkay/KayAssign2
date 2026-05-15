@@ -22,8 +22,24 @@ header {
   width: 100%;
 }
 
-h2 {
-    text-align: center;
+.dropdown-heading {
+    font-size: 1.5rem;   /* Styling the dropdown headings to be bigger, since they are already in a <summary> tag which treats <h2> as a separate block if I put it inside (eg. <summary> <h2> Heading </h2> </summary> */
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/*Timestamp buttons*/
+.timestamps {
+  margin-top: 10px;
+}
+
+.timestamp-btn {
+  padding: 8px 12px;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color:blanchedalmond;
 }
 
 /* Footer styling */
