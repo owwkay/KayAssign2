@@ -1,7 +1,14 @@
 body {
-    background-color: rgba(224, 249, 255, 0.959); /*I chose a */
+    background-color: #FFF8F0; /*I chose a light cream color for the background as many art and craft websites use a light color palette for theie website design, and it can represent paper which is used in many crafts.*/
     font-family: Fuzzy Bubbles, Arial, Helvetica, sans-serif; /*Referred to Google font and includes fallback fonts. I chose the "Fuzzy Bubbles" font for its handwritten typeface, welcoming the user to try an easy DIY activity that feels as if a friend had given it to them to try. */
     color: black;
+}
+
+
+/* Navigation styling */
+nav {
+  margin-top: 20px;
+  text-align: center;
 }
 
 /* Video width*/
@@ -15,7 +22,7 @@ video {
 
 /* Header styling */
 header {
-  background-color:rgb(253, 255, 159);
+  background-color:#A3B18A; /* I chose a sage green for the header and footer as it compliments the cream background */
   color: var(--main-text-color);
   padding: 10px 0;
   text-align: center;
@@ -39,12 +46,12 @@ header {
   margin-right: 8px;
   cursor: pointer;
   border-radius: 6px;
-  background-color:blanchedalmond;
+  background-color:#D08C60;
 }
 
 /* Footer styling */
 footer {
-  background-color:rgb(253, 255, 159);
+  background-color:#A3B18A;
   color: var(--main-text-color);
   text-align: center;
   padding: 10px 0;
