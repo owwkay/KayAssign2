@@ -7,15 +7,16 @@
     <link rel="reset.css" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles">
-    <link rel="javascript" href="script.js" />
+    <script src ="script.js" defer> </script>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-      <h1>Crafters Cove</h1>
+      <h1>Crafters Cove</h1> <!-- I titled the website this name as I would imagine that a DIY tutorial video would be hosted on a website that is dedicated to sharing arts and crafts. -->
     </header>
 
-    <h2> Handheld Windmill DIY Craft</h2>
+    <main>
+    <h2> Handheld Windmill DIY Craft </h2>
       <!-- Media Player Section -->
       <div class="media-player">
         <video id="videoplay" controls>
@@ -24,10 +25,14 @@
             type="video/mp4"
           /> <!-- Handheld Windmill DIY by Berry Bunch Family on www.berrybunch.family -->
         </video>
+      </div>
 
-        
-            
-        <h2> Materials: </h2>
+    <div class="timestamps"> <!-- I provided timestamps for where each step starts so that the user would be able to direct themselves to whatever point of the video they need to continue from, rather than guessing on the video progress bar. -->
+
+    </div>
+
+    <details open> <!--Details/summary allows me to put the text content into a dropdown feature, where the user is able to show or hide the text whislt they watch the video. I added this because I thought that the user didn't need to be seeing it the entire time, especially when they are trying to watch the video at the same time, so they'd end up scrolling up and down to read the steps and follow along with the video. -->
+        <summary  class="dropdown-heading"> Materials: </summary>   
             <ul>
                 <li> Sheets of foam </li>
                 <li> Scissors </li>
@@ -37,28 +42,81 @@
                 <li> Paper straws </li>
                 <li> Pipecleaners </li>
                 <li> Hole puncher </li>
-            </ul>
-            
-        <h2> Steps: </h2>
-            <ol>
-                <li> Using a ruler and a pen, measure a 12 and a half centimeter square and cut it out. </li>
-                <li> Fold the foam diagonally in half, and then again for the other direction. </li>
-                <li> Make a hole in the middle where the creases meet with a pen or hole punch. </li>
-                <li> For each point, put a hole until there are 4 in total (not including the middle). </li>
-                <li> Bring each point to the middle so that the holes are aligned. </li>
-                <li> Take an extra piece of foam and use a gluestick lid to make two circular impressions, then cut them out and poke holes in the middle. </li>
-                <li> Take the paper straw and wrap a bit of the end of a pipecleaner to it. </li>
-                <li> Thread the first circle into the pipecleaner, and then thread the pipecleaner through the windmill, from the back to the front. </li>
-                <li> Thread the second circle through the pipecleaner, and make sure there is a small gap for the windmill to be able to move. </li>
-                <li> Cut off the excess pipecleaner and bend the end into itself so that everything is secured. </li>
+            </ul>  
+    </details>
+
+    <details open>
+        <summary class="dropdown-heading"> Steps: </summary>
+             <ol>
+                <li> Using a ruler and a pen, measure a 12 and a half centimeter square and cut it out. 
+                    <button class="timestamp-btn" data-time="30">
+                        0:30
+                    </button>
+                </li> 
+                    
+                <li> Fold the foam diagonally in half, and then again for the other direction. 
+                     <button class="timestamp-btn" data-time="42">
+                        0:42
+                    </button>
+                </li>
+                    
+                <li> Make a hole in the middle where the creases meet with a pen or hole punch. Then cut from each corner crease, halfway to the middle to form flaps.
+                     <button class="timestamp-btn" data-time="51">
+                        0:51
+                    </button>
+                </li>
+
+                <li> For each flap, poke a hole in the corner until there are 4 in total (not including the middle). Place a little bit of glue under each hole.
+                     <button class="timestamp-btn" data-time="90">
+                        1:00
+                    </button>
+                </li>
+
+                <li> Bring each point to the middle so that the holes are aligned. 
+                     <button class="timestamp-btn" data-time="30">
+                        0:30
+                    </button>
+                </li>
+
+                <li> Take an extra piece of foam and use a gluestick lid to make two circular impressions, then cut them out and poke holes in the middle. 
+                     <button class="timestamp-btn" data-time="30">
+                        0:30
+                    </button>
+                </li>
+
+                <li> Take the paper straw and wrap a bit of the end of a pipecleaner to it. 
+                     <button class="timestamp-btn" data-time="30">
+                        0:30
+                    </button>
+                </li>
+
+                <li> Thread the first circle into the pipecleaner, and then thread the pipecleaner through the windmill, from the back to the front. 
+                     <button class="timestamp-btn" data-time="30">
+                        0:30
+                    </button>
+                </li>
+
+                <li> Thread the second circle through the pipecleaner, and make sure there is a small gap for the windmill to be able to move. 
+                     <button class="timestamp-btn" data-time="30">
+                        0:30
+                    </button>
+                </li>
+
+                <li> Cut off the excess pipecleaner and bend the end into itself so that everything is secured. 
+                     <button class="timestamp-btn" data-time="30">
+                        0:30
+                    </button>
+                </li>
+
                 <li> Spin your windmill and have fun! </li>
             </ol>
-            
+    </details>
+                
     </main>
 
     <!-- Footer Section -->
     <footer>
-      <p>&copy; 2026 Media Player Website. Video by <a href="https://www.youtube.com/watch?v=RsQAoTV6xsc">Cooking Tree 쿠킹트리</a> on YouTube</p>
+      <p>&copy; 2026 Media Player Website. Video by <a href="https://www.berrybunch.org/Group/Group.aspx?ID=410486">Berry Bunch Family</a> on www.berrybunch.family</p>
       <a href="https://icons8.com/icon/59862/play">Play</a>,
       <a href="https://icons8.com/icon/61012/pause">Pause</a> icon by
       <a href="https://icons8.com">Icons8</a>
