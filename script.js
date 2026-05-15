@@ -1,3 +1,4 @@
+
 const video = document.getElementById("videoplay");
 const buttons = document.querySelectorAll(".timestamp-btn");
 
